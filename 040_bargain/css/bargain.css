@@ -4,7 +4,6 @@ body{
 }
 #wrap{
     width: 100%;
-    border: 8px solid #fff;
 }
 #wrap{
     background-image: url(../images/poster.jpg);
@@ -74,7 +73,8 @@ input[id="menuicon"]:checked+label span:nth-child(3){
 .header nav[class="mobile_gnb"]{
     width: 168px;
     height: 100%;
-    background: #ff143b;
+    background: #71859a;
+    opacity: 0.95;
     /* 포지션 */
     position: absolute;
     left: -258px;
@@ -108,7 +108,7 @@ input[id="menuicon"]:checked+label+nav{
     color: #fff;
 }
 .header .mobile_gnb .gnb>li>a:hover{
-    color: #000;
+    color: #4c5c6c;
     font-weight: 700;
 }
 
@@ -172,7 +172,7 @@ section .button button{
     border: none;
     outline: none;
     cursor: pointer;
-    background-color: #ff143b;
+    background-color: #71859a;
 }
 section .button a button{
     font-family: 'Arial', sans-serif;

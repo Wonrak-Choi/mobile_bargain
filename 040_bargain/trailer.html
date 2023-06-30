@@ -16,20 +16,18 @@
     <link rel="stylesheet" href="./css/display_none_scrollbar.css">
     <link rel="stylesheet" href="./css/bargain.css">
     <link rel="stylesheet" href="./css/trailer.css">
-    <link rel="stylesheet" href="./css/video.css">
-    <link rel="stylesheet" href="./css/synopsis.css">
     <!-- JS 플러그인 파일 -->
     <script src="./js/jquery-1.12.4.min.js"></script>
     <script src="./js/jquery-3.3.1.min.js"></script>
     <script src="./js/prefixfree.min.js"></script>
-    <!-- 페이지JS -->
-    <script src="./js/calHeight.js"></script>
+    <style>
+        #more {
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <div id="wrap">
-        <!-- 배경 동영상 -->
-        <div class="video"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/hdia1msAgBk?autoplay=1&mute=1&controls=0&loop=1&playlist=hdia1msAgBk" title="[몸값] 이 드립.. 대본일까 애드립일까 ㅣ #shorts" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-        <!-- /배경 동영상 -->
         <!-- Header -->
         <header class="header">
             <!-- 햄버거 메뉴 그리기 -->
@@ -57,34 +55,80 @@
                 </ul>
             </nav>
             <!-- /햄버거 클릭시 보이는 GNB메뉴 -->
+            <!-- Banner -->
+            <!-- <aside class="banner">
+                <a href="https://www.tving.com/contents/P001641335?utm_source=Naver&utm_medium=Organic&utm_campaign=SERP"><img src="./images/top_banner.png" alt="배너" height="60px"></a>
+            </aside> -->
+            <!-- /Banner -->
         </header>
         <!-- /Header -->
         <!-- Contents -->
         <main role="main" id="contents">
-            <section class="videoback">
-                <h3><img src="./images/synopsis.png" alt="메인타이틀"></h3>
+            <!-- Search From : Hover 검색창 -->
+            <!-- <form action="#">
+                <fieldset>
+                    <div class="box">
+                        <div class="search_container">
+                            <span class="icon"><i class="fa fa-search"></i></span>
+                            <input type="search" id="search" placeholder="Search..." autocomplete="off">
+                        </div>
+                    </div>
+                </fieldset>
+            </form> -->
+            <!-- /Search From : Hover 검색창 -->
+            <!-- Contents Section -->
+            <section class="promotion">
                 <p>
-                    &lt;제 6회 칸 국제 시리즈 페스티벌&gt; 각본상 수상! <br>
-                    티빙 오리지널 시리즈
+                    진선규, 전종서, 장률 출연! <br>
+                    원테이크 기법이 만든 생생한 긴장감!!
                 </p>
                 <p>
-                    미친자들의 위험한 거래 <br>
-                    서로의 ‘몸값’을 두고 흥정하던 세 사람이 지진으로 무너진 
-                    건물에 갇힌 후, 각자 마지막 기회를 붙잡기 위해 위험한 거래를 
-                    시작하며 광기의 사투를 벌이는 이야기.
-                </p>
-                <p>
-                    <strong>감독</strong><br>
-                    전우성
-                </p>
-                <p>
-                    <strong>주연</strong><br>
-                    진선규, 전종서, 장률
+                    티빙 오리지널 드라마 몸값이 보고 싶다면?
                 </p>
             </section>
+            <!-- /Contents Section -->
+            <!-- Youtube Section -->
+            <section class="youtube">
+                <iframe width="436" height="245" src="https://www.youtube.com/embed/u2k5_XYhjc4" title="[몸값] 무너진 세상, 미친 자들의 위험한 거래가 시작된다! | 1차 예고편" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </section>
+            <!-- /Youtube Section -->
+            <!-- Area Script Section -->
+            <section class="area">
+                <h3>오직 <span>TVING</span> 에서만!</h3>
+                <p>
+                    <button>#전우성감독</button>
+                    <button>#진선규</button>
+                    <button>#전종서</button>
+                    <button>#장률</button>
+                    <button>#TVING</button>
+                    <button>#드라마</button>
+                    <button>#티빙오리지널</button>
+                    <button>#청불</button>
+                    <button>#청소년관람불가</button>
+                    <button>#스릴러</button>
+                    <button>#범죄</button>
+                    
+                    <button id="dots">...</button>
+                    
+                    <span id="more">
+                        <button>#블랙 코미디</button>
+                        <button>#느와르</button>
+                        <button>#서스펜스</button>
+                        <button>#액션</button>
+                        <button>#재난</button>
+                        <button>#하드보일드</button>
+                        <button>#피카레스크</button>
+                        <button>#고어</button>
+                    </span>
+
+                    <button id="myBtn">+MORE</button>
+                </p>
+            </section>
+            <!-- /Area Script Section -->
         </main>
         <!-- /Contents -->
     </div>
+
     <!-- Footer -->
     <footer>
         <p>
@@ -99,6 +143,6 @@
             </p>
         </div>
     </footer>
-<script src="./js/halfHeight.js"></script>    
+<script src="./js/ticket.js"></script>    
 </body>
 </html>

@@ -31,10 +31,11 @@ video{
     font-size: 0.867rem;
     color: #fff;
     font-weight: 500;
-    line-height: 1.2;
+    line-height: 1.4;
     padding: 28px 24px;
-    background-color: #ff143b81;
+    background-color: #71859a78;
 }
+
 #contents .videoback img{
     width: 100%;
     max-width: 440px;
@@ -43,7 +44,7 @@ video{
     margin-bottom: 24px;
 }
 #contents .videoback p{
-    font-size: 0.6875rem;
+    font-size: 0.875rem;
 }
 #contents .videoback p:nth-child(2){
     margin-bottom: 44px;
